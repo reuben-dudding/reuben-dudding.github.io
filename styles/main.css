@@ -1,5 +1,6 @@
 body { 
  background-color: rgb(219, 197, 217);
+ 
 }
 h1{
   border-style: double;
@@ -31,4 +32,16 @@ button {
   font-size: 16px;
   border-bottom-left-radius: 10px;
   border-top-right-radius: 10px;
+  margin: 20px 0px 20px 0px;
+  
 }
+footer{
+  
+  background-color: #eee1e1;
+  padding: 15px 15px;
+  text-align: center;
+  position: sticky
+  bottom:0px;
+  
+}
+  
