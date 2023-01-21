@@ -19,14 +19,17 @@ img{
     margin-right: 10px;
 }
 button {
-  background-color: #ff6868; /*  */
+  background-color: #f58d8d; /*  */
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
   
   
 }
