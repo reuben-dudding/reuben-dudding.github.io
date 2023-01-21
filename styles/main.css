@@ -7,6 +7,8 @@ h1{
   display: inline;
   border-top-right-radius: 10px 10px;
   border-bottom-left-radius: 10px 10px;
+  float: left;
+  
   
 }
 img{
