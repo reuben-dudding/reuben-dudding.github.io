@@ -11,6 +11,7 @@ h1{
   float: left;
   
   
+  
 }
 img{
     size-adjust: 400px;
@@ -41,7 +42,16 @@ footer{
   padding: 15px 15px;
   text-align: center;
   position: sticky
-  bottom:0px;
+  bottom 0px;
   
 }
+h2{
+  text-align: center;
+  margin-top: 10%;
   
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
