@@ -55,21 +55,37 @@ h2{
   margin-top: 10px;
   margin-bottom: 10px;
 }
-@media screen 
-    and (max-device-width : 480px){
-      body {font-size: 0.7em; 
-        text-align: center;
 
+      
+      // Styles for screen widths 769px to 1200px /
+      @media only screen and (max-width: 1200px) {
+        p{
+          font-size: 30px
+          
         }
-      }
-
-      @media screen 
-      and (max-device-width : 780px){
-        body {font-size: 0.7em; 
-          text-align: center;
-  
+          h1 {
+              font-size: 30px
           }
+      }
+      
+      / Styles for screen widths 321px to 768px /
+      @media only screen and (max-width: 768px) {
+        p{
+          font-size: 20px
         }
-
+          h1 {
+              font-size: 20px
+          }
+      }
+      
+      / Styles for screen widths 320px and below */
+      @media only screen and (max-width: 320px) {
+        p{
+          font-size: 10px
+        }
+          h1 {
+              font-size: 10px
+          }
+      }
 
 
