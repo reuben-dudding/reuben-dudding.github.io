@@ -55,3 +55,21 @@ h2{
   margin-top: 10px;
   margin-bottom: 10px;
 }
+@media screen 
+    and (max-device-width : 480px){
+      body {font-size: 10em; 
+        text-align: center;
+
+        }
+      }
+
+      @media screen 
+      and (max-device-width : 780px){
+        body {font-size: 10em; 
+          text-align: center;
+  
+          }
+        }
+
+
+
