@@ -14,11 +14,26 @@
       <h1>What does it mean to display inline vs inline blocks?</h1></table>
       <h2>The display property is the most important CSS property for controlling layout, as it specifies how an element is displayed.</h2>
       <p class="p">
-        To display.inline is to display something inside of an excisting element say a 'p' tag or a 'div' this can help you add pictures around text or just help formating. there are two types of inline tags you can use including display: inline and display: Inline-block, ill be getting into the differences below
+
+        There are two types of inline tags you can use including display: inline and display: Inline-block, ill be getting into the differences below
         <dt>Display: Inline</dt>
-        <dd>-The display inline property is used to display an element as an inline element like span. No height or width values are affected and only the left and right margins are allowed no top or bottom values. Display inline can be used when adding content to an exsisting element with the 'span' tag. </dd>
+        <dd>-The display inline property is used to display an element as an inline element like span. 
+          Display inline elements are used to change/manipulate elements <i>within text</i> (see what i did there) and are displayed within the line of text.
+          Inline elements include anything that changes a text tag or element within and without breaking the line of text. 
+          More examples of inline elements include: 
+          This is a <strong>strong inline element</strong>
+          This is a <small>small inline element</small>
+          This is a <span>span "mini div" inline element</span>  
+          This is a <sup>sup inline element</sup>
+          These tags naturally/by default display inline.
+          Basically, inline elements enable changes to the text within the line of text. No height or width values are affected and only the left and right margins are allowed no top or bottom values. </dd>
         <dt>Display: Inline-block</dt>
-        <dd>-Pretty much the same as inline but this displays an element as an inline level block container, sort of like a mini div in the middle of another div. the element itself is formatted like disply inline but you are able to manipulate the height and width values to match it up nicely. Inline blocks are sorta a css version to a 'p' tag or a 'div' tag</dd>
+        <dd>-Pretty much the same as inline but this displays an element as an inline level block container. The element itself is formatted like disply inline but you are able to manipulate the height and width values to match it up nicely.
+        An example of an display: inline block is the 
+        <button width: 100%>button</button> 
+        as it displays on a new line and within a block that can be formatted. </dd>
+        
+        
         <dt>Block</dt>
         <dd>-Block properties enable you to start new elements on their own line and takes up the whole width available. You can change the height and width values as you please </dd>
        </p>
