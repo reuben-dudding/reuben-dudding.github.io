@@ -2,7 +2,7 @@ body {
  background-color: rgb(219, 197, 217);
  
 }
-h1{
+.h1{
   border-style: double;
   border-width: 1px;
   display: inline;
@@ -13,7 +13,7 @@ h1{
   
   
 }
-img{
+.img{
     size-adjust: 400px;
     border-radius: 100px;
     max-width: 1500px;
@@ -21,6 +21,7 @@ img{
     margin-top: 10px;
     margin-bottom: 0px;
     margin-right: 10px;
+    display: inline;
 }
 button {
   background-color: #f58d8d; /*  */
@@ -49,6 +50,10 @@ h2{
   text-align: center;
   margin-top: 10%;
   
+}
+
+.eq{
+  text-align: center;
 }
 
 p {
