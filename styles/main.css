@@ -34,7 +34,9 @@ body {
     display: inline;
 }
 .img2{
-  size-adjust: 1000px;
+  size-adjust: 400px;
+  max-width: 400px;
+  max-height: 400px;
   
 }
 
