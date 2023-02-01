@@ -33,6 +33,11 @@ body {
     margin-right: 10px;
     display: inline;
 }
+.img2{
+  size-adjust: 1000px;
+  
+}
+
 button {
   background-color: #f58d8d; /*  */
   border: none;
